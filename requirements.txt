@@ -1,7 +1,8 @@
 flask
+flask-cors
 requests
 pytesseract
 opencv-python
-deepface
-tf-keras
-flask-cors
+deepface==0.0.79
+tensorflow==2.11.0
+tf-keras==2.11.0
