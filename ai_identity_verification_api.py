@@ -5,8 +5,10 @@ import cv2
 from deepface import DeepFace
 import os
 import tempfile
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Set tesseract path if needed (comment out if not required on server)
 pytesseract.pytesseract.tesseract_cmd = r"C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
