@@ -1,8 +1,9 @@
-tensorflow==2.12.0
-tf-keras==2.12.0
-deepface==0.0.79
 flask
 flask-cors
+gunicorn
 opencv-python
 pytesseract
 requests
+deepface==0.0.79
+tensorflow==2.12.0
+tf-keras==2.12.0
