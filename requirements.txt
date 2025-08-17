@@ -3,3 +3,5 @@ requests
 pytesseract
 opencv-python
 deepface
+tf-keras
+flask-cors
